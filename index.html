@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/blood.css" id="theme">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>JSDOc</h1>
+				<img src="./assets/code.png" alt="">
+			</section>
+
+
+			<section>
+				<h3>What is JSDoc?</h3>
+				<ul>
+					<li class="fragment">JSDoc documentation generator tool.</li>
+					<li class="fragment">you can use on any Javascript project</li>
+					<li class="fragment">It adds Strong type Checking.</li>
+					<li class="fragment">You can integrate with the typescript service on vscode </li>
+					<li class="fragment">Code documentation dissolves those doubts, helping you and other developers to understand
+						how to use the
+						software you wrote.</li>
+				</ul>
+
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
